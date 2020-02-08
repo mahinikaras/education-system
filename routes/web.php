@@ -16,7 +16,14 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('{any}', 'VeltrixController@index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/student-information', 'AdmissionController@std_info')->name('Admission.Std-info');
+
+
+
+Route::get('{any}', 'VeltrixController@index');
