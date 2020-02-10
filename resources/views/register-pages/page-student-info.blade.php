@@ -6,7 +6,9 @@
 <h3 class="std-info">Student Information</h3>
 
 <div class="all-forms">
-                                        <form class="" action="#">
+    <div class="row">
+        <div class="col-md-12">
+            <form class="" action="#">
                                             <div class="form-group">
                                                 <label>First Name <span class="required">*</span></label>
                                                 <input type="text" class="form-control" required />
@@ -76,6 +78,8 @@
                                                 </div>
                                             </div>
                                         </form>
+        </div>
+    </div>                                
 </div>
 
 

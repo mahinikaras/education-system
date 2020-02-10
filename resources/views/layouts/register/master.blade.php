@@ -12,8 +12,10 @@
 <body>
     <div id="wrapper">
          
-           <h2 class="text-center">Education System</h2>
-            <p class="text-center">Online Application</p>  
+           <div class="admission-header">
+              <h2 class="text-center">Stone Rose Designs</h2>
+              <p class="text-center">Online Admission Application</p>  
+           </div>
            
                 <div class="container">
                   
@@ -29,6 +31,10 @@
            
        
         @include('layouts.footer-script')  
+
     </div> 
+     <div class="admission-footer">
+       @include('layouts.footer')
+     </div>
     </body>
 </html>
