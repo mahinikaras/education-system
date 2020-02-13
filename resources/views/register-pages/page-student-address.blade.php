@@ -3,75 +3,80 @@
 
 @section('content')
 
-<h3 class="std-info">Student Information</h3>
+<h3 class="std-info">Student Address</h3>
 
 <div class="all-forms">
     <div class="row">
         <div class="col-md-12">
-            <form class="" action="{{route('Admission.Std-address')}}">
+            <form class="" action="{{route('Admission.Std-education')}}">
+
+                <p class="label-header">Permanent Home Address</p>
+
                                             <div class="form-group">
-                                                <label>First Name <span class="required">*</span></label>
-                                                <input type="text" class="form-control" required />
+                                                <label>Street Number, Street Name, Apt # or P.O. Box <span class="required">*</span></label>
+                                                <input type="text" class="form-control" />
+                                                <input type="text" class="form-control" />
                                             </div>
         
                                             <div class="form-group">
-                                                <label>Last Name <span class="required">*</span></label>
+                                                <label>City <span class="required">*</span></label>
                                                 <div>
-                                                    <input type="text" class="form-control" required />
+                                                    <input type="text" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>Middle Name</label>
+                                                <label>Postral Code <span class="required">*</span></label>
                                                 <div>
-                                                    <input parsley-type="url" type="url" class="form-control" placeholder="Optional" />
+                                                    <input parsley-type="url" type="url" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>Date Of Birth <span class="required">*</span></label>
+                                                <label>County <span class="required">*</span></label>
                                                 <div>
                                                     <input type="date" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>U.S Social Security Number</label>
+                                                <label>State</label>
                                                 <div>
-                                                    <input data-parsley-type="number" type="text"
-                                                            class="form-control" placeholder="Optional" />
+                                                    <select name="" id="" class="form-control"></select>
+                                                </div>
+                                            </div>
+                <p class="label-header">Mailing Address(If Different Than Others)</p>
+ <div class="form-group">
+                                                <label>Street Number, Street Name, Apt # or P.O. Box </label>
+                                                <input type="text" class="form-control" />
+                                                <input type="text" class="form-control" />
+                                            </div>
+        
+                                            <div class="form-group">
+                                                <label>City </label>
+                                                <div>
+                                                    <input type="text" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>Gender <span class="required">*</span></label>
+                                                <label>Postral Code </label>
                                                 <div>
-                                                    <input type="text" class="form-control" required />
+                                                    <input parsley-type="url" type="url" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>Student Number</label>
+                                                <label>Country</label>
                                                 <div>
-                                                    <input type="text" class="form-control" required placeholder="optional" />
+                                                    <input type="date" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>Email <span class="required">*</span></label>
+                                                <label>State</label>
                                                 <div>
-                                                    <input type="Email" class="form-control" required />
+                                                    <select name="" id="" class="form-control"></select>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label>Country Code</label>
-                                                <div>
-                                                    <input type="text" class="form-control" required placeholder="Optional" />
-                                                </div>
-                                            </div>
-                                             <div class="form-group">
-                                                <label>Mobile <span class="required">*</span></label>
-                                                <div>
-                                                    <input type="text" class="form-control" required />
-                                                </div>
-                                            </div>
-                                            
+
                                             <div class="form-group">
                                                 <div>
+                                                    <button type="button" class="btn btn-secondary waves-effect">Previous</button>
                                                     <button type="submit" class="btn btn-info waves-effect waves-light btn-right">
                                                         Save & Next
                                                     </button>

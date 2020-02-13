@@ -2,7 +2,7 @@
     margin-top: 40px;
     padding: 30px 30px;
     background-color: #fff;
-    height: 100vh;
+    
 }
 .registration-tab li{
     list-style: none;
@@ -97,3 +97,87 @@
     left: 0!important;
     margin-top: 50px;
 }
+.label-header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*margin  css*/
+.mt-40{
+    margin-top: 40px;
+}
+
+.pd-40{
+    padding-top: 40px;
+}
+.pdl-40{
+    padding-left: 40px;
+}
+.pdr-40{
+    padding-right: 40px;
+}
+.form-header{
+    color: #e89600;
+    margin-bottom: 30px;
+}
+.table-data-show thead{
+    background: #333547!important;
+    color: #fff!important;
+}
+.dt-buttons{
+    background: red!important;
+}
+
+
+.information-list{
+    list-style: none;
+    padding-left: 0;
+}
+.information-list span{
+    font-weight: bold;
+}
+
+.information-list li{
+    color: #333;
+    margin-top: 8px;
+    border-bottom: 1px solid #dfdff4;
+}
+
+.student-info .card-header{
+    padding: 10px 10px!important;
+}
+.student-info .card-header h4{
+    margin: 0;
+    font-size: 18px;
+}
+.student-info .card-body{
+    background: #fff;
+}
+.content-header-txt{
+    color: #fff;
+    text-transform: uppercase;
+}
+.content-header{
+    background: #4d6171;
+}
+.side-menu{
+    background: #212529;
+}
+.course-table-admin th{
+    font-weight: bold;;
+}
+.card-header i{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
