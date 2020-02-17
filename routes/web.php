@@ -41,6 +41,8 @@ Route::get('/dashboard/admin/teacher-list','AdminDashboardController@teacher_lis
 //admin routes - route STUDENT
 Route::get('/dashboard/admin/student-list','AdminDashboardController@student_list')->name('Admin.Student-list');
 Route::get('/dashboard/admin/student-information','AdminDashboardController@student_info')->name('Admin.Student-info');
+//admin routes - route STUDENT
+Route::get('/dashboard/admin/payment-info','AdminDashboardController@payment_info')->name('Admin.Payment-info');
 
 
 

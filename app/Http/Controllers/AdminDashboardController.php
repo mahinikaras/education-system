@@ -67,5 +67,12 @@ class AdminDashboardController extends Controller
 
 	}
 
+	public function payment_info(){
+
+
+		return view('dashboards.admin.page-payment-info');
+
+	}
+
 
 }
