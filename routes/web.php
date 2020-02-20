@@ -45,5 +45,13 @@ Route::get('/dashboard/admin/student-information','AdminDashboardController@stud
 Route::get('/dashboard/admin/payment-info','AdminDashboardController@payment_info')->name('Admin.Payment-info');
 
 
+/////////////////##########################--TEACHER ROUTES---###############################/////////////////////////
+
+
+Route::get('/dashboard/teacher/course-list','TeacherDashboardController@course_list')->name('Teacher.Show-courses');
+Route::get('/dashboard/teacher/course-details','TeacherDashboardController@course_details')->name('Teacher.Course-details');
+Route::get('/dashboard/teacher/submit-marks','TeacherDashboardController@submit_marks')->name('Teacher.Submit-marks');
+
+
 
 Route::get('{any}', 'VeltrixController@index');

@@ -177,6 +177,82 @@
 /*teacher dashboard*/
 
 
+.course-list-panel{
+    border: 1px solid #008AFC;
+    padding: 15px 15px;
+}
+.panel-footer{
+    background: #008AFC;
+    padding: 10px 10px;
+    color: #fff;
+}
+.panel-footer a{
+    color: #fff!important;
+}
+.course_all .course_name{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.course_all .teacher_info{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 5px 5px;
+    margin-top: 15px;
+    float: left;
+}
+.course_all .teacher_info img{
+    width: 80px;
+}
+.course_all .basic{
+    float: left;
+    text-transform: uppercase;
+    
+}
+.course_all .basic .name{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.course_all .basic .email{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.course_tab{
+    margin-top: 40px;
+
+}
+.notes-list .fa-upload, .notes-list 
+.fa-gem{
+    margin-right: 10px;
+}
+.notes-download,.notes-delete{
+    border: 1px solid #333;
+    margin-left: 5px;
+}
+.notes-download i{
+    color: #159600;
+
+}
+.notes-delete i{
+    color: #fb4c36;
+}
+.course_notes .fa-file, .course_notes .fa-bullhorn{
+    margin-right: 10px;
+}
+.course_tab .active span{
+    color: #626ed4!important;
+}
+
+.course_title{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.course_title span{
+    font-weight: bold;
+}
 
 
 
@@ -184,12 +260,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
+ 
