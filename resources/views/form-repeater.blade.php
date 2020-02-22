@@ -25,7 +25,7 @@
                                                 <div data-repeater-item class="row">
                                                     <div  class="form-group col-lg-2">
                                                         <label for="name">Name</label>
-                                                        <input type="text" id="name" name="untyped-input" class="form-control"/>
+                                                        <input type="text" id="name" name="" class="form-control"/>
                                                     </div>
         
                                                     <div  class="form-group col-lg-2">

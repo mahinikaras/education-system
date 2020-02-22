@@ -32,6 +32,9 @@ Route::get('/student-course-payment', 'AdmissionController@std_course_payment')-
 
 //admin routes - route COURSE
 Route::get('/dashboard/admin/add-course','AdminDashboardController@add_course')->name('Admin.Add-course');
+Route::post('/dashboard/admin/add-course-1','AdminDashboardController@store_course')->name('Admin.Store-course');
+
+
 Route::get('/dashboard/admin/course-list','AdminDashboardController@course_list')->name('Admin.Course-list');
 Route::get('/dashboard/admin/edit-course/{id}','AdminDashboardController@edit_course')->name('Admin.Edit-course');
 Route::get('/dashboard/admin/assign-course','AdminDashboardController@assign_course')->name('Admin.Assign-course');
