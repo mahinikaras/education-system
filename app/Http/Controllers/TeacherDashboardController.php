@@ -30,5 +30,23 @@ class TeacherDashboardController extends Controller
 
 	}
 
+	public function std_info(){
+
+		return view('dashboards.teacher.page-student-details');
+	}
+
+	public function notice_info(){
+
+		return view('dashboards.teacher.page-notice');
+
+	}
+
+	public function exam_info(){
+
+		return view('dashboards.teacher.page-course-exams');		
+
+	}
+
+	
 
 }

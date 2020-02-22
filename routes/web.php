@@ -51,7 +51,30 @@ Route::get('/dashboard/admin/payment-info','AdminDashboardController@payment_inf
 Route::get('/dashboard/teacher/course-list','TeacherDashboardController@course_list')->name('Teacher.Show-courses');
 Route::get('/dashboard/teacher/course-details','TeacherDashboardController@course_details')->name('Teacher.Course-details');
 Route::get('/dashboard/teacher/submit-marks','TeacherDashboardController@submit_marks')->name('Teacher.Submit-marks');
+Route::get('/dashboard/teacher/student-details','TeacherDashboardController@std_info')->name('Teacher.Std-info');
+Route::get('/dashboard/teacher/notice','TeacherDashboardController@notice_info')->name('Teacher.Notice-info');
+Route::get('/dashboard/teacher/exams','TeacherDashboardController@exam_info')->name('Teacher.Exam-info');
+
+
+
+/////////////////##########################--STUDENT ROUTES---###############################/////////////////////////
+
+Route::get('/dashboard/student/course-list','StudentDasboardController@course_list')->name('Student.Course-list');
+Route::get('/dashboard/student/notice','StudentDasboardController@course_notice')->name('Student.Course-notice');
+Route::get('/dashboard/student/exams','StudentDasboardController@course_exams')->name('Student.Course-exams');
+Route::get('/dashboard/student/course-details','StudentDasboardController@course_details')->name('Student.Course-details');
+Route::get('/dashboard/student/profile','StudentDasboardController@profile')->name('Student.Profile');
+Route::get('/dashboard/student/grade-report','StudentDasboardController@grade_report')->name('Student.Grade-report');
+
+
+
+
+
+
+
 
 
 
 Route::get('{any}', 'VeltrixController@index');
+
+

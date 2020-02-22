@@ -1,4 +1,4 @@
-@extends('layouts.admin.master')
+@extends('layouts.teacher.master')
 
 @section('css')
 <!-- DataTables -->
@@ -46,7 +46,7 @@
                                                 <td>50</td>
                                                 <td><input type="text" class="form-control"></td>
                                                 <td><button type="button" class="btn btn-info">Submit</button></td>
-                                                <td><a href="{{route('Admin.Student-info')}}" class="btn btn-success">Details</a></td>
+                                                <td><a href="{{route('Teacher.Std-info')}}" class="btn btn-success">Details</a></td>
                                             </tr>
                                             <tr>
                                                 <td>123355465</td>
@@ -54,7 +54,7 @@
                                                 <td>50</td>
                                                 <td><input type="text" class="form-control"></td>
                                                 <td><button type="button" class="btn btn-info">Submit</button></td>
-                                                <td><a href="{{route('Admin.Student-info')}}" class="btn btn-success">Details</a></td>
+                                                <td><a href="{{route('Teacher.Std-info')}}" class="btn btn-success">Details</a></td>
                                             </tr>
                                             <tr>
                                                 <td>123355465</td>
@@ -62,7 +62,7 @@
                                                 <td>50</td>
                                                 <td><input type="text" class="form-control"></td>
                                                 <td><button type="button" class="btn btn-info">Submit</button></td>
-                                                <td><a href="{{route('Admin.Student-info')}}" class="btn btn-success">Details</a></td>
+                                                <td><a href="{{route('Teacher.Std-info')}}" class="btn btn-success">Details</a></td>
                                             </tr>
                                             <tr>
                                                 <td>123355465</td>
@@ -70,7 +70,7 @@
                                                 <td>50</td>
                                                 <td><input type="text" class="form-control"></td>
                                                 <td><button type="button" class="btn btn-info">Submit</button></td>
-                                                <td><a href="{{route('Admin.Student-info')}}" class="btn btn-success">Details</a></td>
+                                                <td><a href="{{route('Teacher.Std-info')}}" class="btn btn-success">Details</a></td>
                                             </tr>
                                             <tr>
                                                 <td>123355465</td>
@@ -78,7 +78,7 @@
                                                 <td>50</td>
                                                 <td><input type="text" class="form-control"></td>
                                                 <td><button type="button" class="btn btn-info">Submit</button></td>
-                                                <td><a href="{{route('Admin.Student-info')}}" class="btn btn-success">Details</a></td>
+                                                <td><a href="{{route('Teacher.Std-info')}}" class="btn btn-success">Details</a></td>
                                             </tr>
                                            
                                            

@@ -13,26 +13,32 @@
                                 </a>
                             </li>
                            <li>
-                                <a href="{{route('Teacher.Show-courses')}}" class="waves-effect">
+                                <a href="{{route('Student.Course-list')}}" class="waves-effect">
                                     <i class="ti-home"></i> <span> Course Notes</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="{{route('Teacher.Notice-info')}}" class="waves-effect">
+                                <a href="{{route('Student.Course-notice')}}" class="waves-effect">
                                     <i class="ti-home"></i> <span> Course Notices </span>
                                 </a>
                             </li>
                              <li>
-                                <a href="{{route('Teacher.Exam-info')}}" class="waves-effect">
+                                <a href="{{route('Student.Course-exams')}}" class="waves-effect">
                                     <i class="ti-home"></i> <span> Course Exams </span>
                                 </a>
                             </li>
-                            
+                             <li>
+                                <a href="{{route('Student.Grade-report')}}" class="waves-effect">
+                                    <i class="ti-home"></i> <span> Grade Report </span>
+                                </a>
+                            </li>
                             <li>
-                                <a href="{{route('Admin.Student-list')}}" class="waves-effect">
+                                <a href="{{route('Student.Profile')}}" class="waves-effect">
                                     <i class="ti-home"></i> <span> Profile </span>
                                 </a>
                             </li>
+                           
+                            
                             <li>
                                 <a href="{{route('Admin.Student-list')}}" class="waves-effect">
                                     <i class="ti-home"></i> <span> Logout </span>
